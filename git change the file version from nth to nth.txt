@@ -1,0 +1,4 @@
+1- git reset --soft 2706592e0bac2e89912bdfc8f6083b724386a866                             to where you want to change.
+2- git checkout 72b8c7e01ac5d49f698569d2a80e6c3183d60b9e -- index.html                   from where you want to change.
+3- git add index.html for pushing the change
+4- git commit -m "Move index.html from 3rd commit to 1st"
